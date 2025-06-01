@@ -1,0 +1,17 @@
+
+body {
+    background-color: black;
+    color: yellow;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+h1, h2 {
+    color: gold;
+}
+button {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
