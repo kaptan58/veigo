@@ -1,34 +1,24 @@
 
 body {
-    font-family: sans-serif;
-    background: black;
-    color: yellow;
+    background: #111;
+    color: #ffeb3b;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+header h1, header h2 {
     margin: 0;
-    padding: 0;
 }
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 1em;
-}
-h1, h2, h3 {
-    color: gold;
-}
-.subtext {
-    color: orange;
-}
-#map {
-    margin: 1em 0;
-}
-#map img {
+.map img {
     width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
 .card {
-    background: #111;
-    border-radius: 10px;
-    margin: 10px 0;
+    background: #222;
     padding: 10px;
-    color: white;
+    margin: 10px 0;
+    border-left: 4px solid #ffeb3b;
     display: flex;
     align-items: center;
 }
@@ -36,17 +26,12 @@ h1, h2, h3 {
     width: 60px;
     height: 60px;
     margin-right: 10px;
-    border-radius: 8px;
 }
-.ticket-button {
-    display: inline-block;
-    background: gold;
-    color: black;
+.btn {
+    background: #ffeb3b;
     padding: 10px;
-    margin-top: 10px;
+    display: inline-block;
+    color: black;
     text-decoration: none;
-    border-radius: 5px;
-}
-ul li {
-    margin: 4px 0;
+    font-weight: bold;
 }

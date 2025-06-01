@@ -2,70 +2,48 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
     <title>VEIGO</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>🚌 VEIGO</h1>
         <h2>Live Busverkehr & Empfehlungen</h2>
-        <p class="subtext">📍 GPS-gestützte Routenvorschläge werden geladen...</p>
-
-        <div id="map">
-            <img src="assets/map-placeholder.jpg" alt="Karte" />
-        </div>
-
-        <section>
-            <h3>⏰ Empfehlung</h3>
-            <p>🚌 Nimm Bus 245 von Zoologischer Garten nach Alexanderplatz.</p>
-        </section>
-
-        <section>
-            <h3>📢 Anzeige</h3>
-            <div class="card"><img src="assets/ad1.jpg" /><p>Jetzt 20% Rabatt auf Monatskarten!</p></div>
-            <div class="card"><img src="assets/ad2.jpg" /><p>Neue App-Version jetzt verfügbar!</p></div>
-            <div class="card"><img src="assets/ad3.jpg" /><p>Kostenloses WLAN in allen Bussen!</p></div>
-        </section>
-
-        <section>
-            <h3>🎵 Berlin Veranstaltungen</h3>
-            <div class="card"><img src="assets/event1.jpg" /><p>Musikfest Berlin – 5. Juni</p></div>
-            <div class="card"><img src="assets/event2.jpg" /><p>Street Food Festival – 8. Juni</p></div>
-            <div class="card"><img src="assets/event3.jpg" /><p>Lange Nacht der Museen – 15. Juni</p></div>
-        </section>
-
-        <section>
-            <h3>🎟️ Bilet Online Al</h3>
-            <a href="https://www.bvg.de/de/tickets" target="_blank" class="ticket-button">🎫 Ticket kaufen (BVG)</a>
-        </section>
-
-        <section>
-            <h3>📍 Top 20 Orte in Berlin</h3>
-            <ul>
-                <li>📌 Brandenburger Tor</li>
-                <li>📌 Berliner Dom</li>
-                <li>📌 Museum Island</li>
-                <li>📌 East Side Gallery</li>
-                <li>📌 Fernsehturm</li>
-                <li>📌 Zoo Berlin</li>
-                <li>📌 Tiergarten</li>
-                <li>📌 KaDeWe</li>
-                <li>📌 Tempelhofer Feld</li>
-                <li>📌 Kurfürstendamm</li>
-                <li>📌 Charlottenburg Schloss</li>
-                <li>📌 Checkpoint Charlie</li>
-                <li>📌 Alexanderplatz</li>
-                <li>📌 Potsdamer Platz</li>
-                <li>📌 Hackescher Markt</li>
-                <li>📌 Gendarmenmarkt</li>
-                <li>📌 Mauerpark</li>
-                <li>📌 Monkey Bar</li>
-                <li>📌 Sisyphos Club</li>
-                <li>📌 Mustafa’s Gemüse Kebap</li>
-            </ul>
-        </section>
-    </div>
+        <p class="loading">📍 GPS-gestützte Routenvorschläge werden geladen...</p>
+    </header>
+    <section class="map">
+        <img src="img/map-example.jpg" alt="Map" />
+    </section>
+    <section class="recommendation">
+        <h3>⏰ Empfehlung</h3>
+        <p>🚌 Nimm Bus 245 von Zoologischer Garten nach Alexanderplatz.</p>
+    </section>
+    <section class="ads">
+        <h3>📢 Anzeige</h3>
+        <div class="card"><img src="img/ad1.jpg" alt="Ad1"/><p>Jetzt 20% Rabatt auf Monatskarten!</p></div>
+        <div class="card"><img src="img/ad2.jpg" alt="Ad2"/><p>Neue App-Version jetzt verfügbar!</p></div>
+        <div class="card"><img src="img/ad3.jpg" alt="Ad3"/><p>Kostenloses WLAN in allen Bussen!</p></div>
+    </section>
+    <section class="events">
+        <h3>🎵 Berlin Veranstaltungen</h3>
+        <div class="card"><img src="img/event1.jpg" alt="Event1"/><p>Musikfest Berlin – 5. Juni</p></div>
+        <div class="card"><img src="img/event2.jpg" alt="Event2"/><p>Street Food Festival – 8. Juni</p></div>
+        <div class="card"><img src="img/event3.jpg" alt="Event3"/><p>Lange Nacht der Museen – 15. Juni</p></div>
+    </section>
+    <section class="ticket">
+        <h3>🎫 Bilet Online Al</h3>
+        <a class="btn" href="https://www.bvg.de/de/tickets" target="_blank">🎟️ Ticket kaufen (BVG)</a>
+    </section>
+    <footer>
+        <h3>📍 Top 5 Orte in Berlin</h3>
+        <ul>
+            <li>📌 Brandenburger Tor</li>
+            <li>📌 Berliner Dom</li>
+            <li>📌 East Side Gallery</li>
+            <li>📌 Zoo Berlin</li>
+            <li>📌 Fernsehturm</li>
+        </ul>
+    </footer>
 </body>
 </html>
