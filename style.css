@@ -1,17 +1,52 @@
 
 body {
-    background-color: black;
+    font-family: sans-serif;
+    background: black;
     color: yellow;
-    font-family: Arial, sans-serif;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
 }
-h1, h2 {
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 1em;
+}
+h1, h2, h3 {
     color: gold;
 }
-button {
-    background-color: yellow;
+.subtext {
+    color: orange;
+}
+#map {
+    margin: 1em 0;
+}
+#map img {
+    width: 100%;
+}
+.card {
+    background: #111;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.ticket-button {
+    display: inline-block;
+    background: gold;
     color: black;
     padding: 10px;
-    border: none;
-    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+ul li {
+    margin: 4px 0;
 }
